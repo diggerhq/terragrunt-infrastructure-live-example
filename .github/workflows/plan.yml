@@ -2,7 +2,7 @@ name: Digger Workflow
 
 on:
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
     types: [ closed, opened, synchronize, reopened ]
   issue_comment:
     types: [created]
