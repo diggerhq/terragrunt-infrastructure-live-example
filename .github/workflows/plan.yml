@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: digger run
-        uses: diggerhq/digger@v0.1.32
+        uses: diggerhq/digger@debug-print-project-file-match
         with:
           setup-aws: false
           disable-locking: true
